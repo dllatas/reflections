@@ -1,0 +1,33 @@
+It helps to find a bug because it reduces manual work and it is more accurate than the human eye.
+Following a manual approach, the time required to inspect a couple of files would increase when
+their sizes increase. If a human is very carefully, the output might be similar. However, it will
+take way more time. Moreover, the computer will be very accurate on this regard. Human accuracy
+might be influenced by several factors such as tireness, boreness, or some kind of bias regarding
+the particular bug.
+
+Using diff provides a fast and accurate way to compare files. The differences are displayed on the
+output, and then it is easier to address a bug just by inspecting them.
+
+How could having easy access to the entire history of a file make you a more efficient programmer
+in the long term?
+
+It can help to restore some previous version that was working correctly.
+It might provide insights about the design decisions regarding a functionality.
+It can determine who modify a file on a particular time. It can be helpful if there is no documentation
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+PROS
+    User defines following a more customized criteria
+
+CONS
+    That criteria might be shit
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Because Git is designed for software development projects where it is common to split the information between several different files. Google Docs is focused on a specific file one.
+
+How can you use the commands git log and git diff to view the history of files?
+
+
+
